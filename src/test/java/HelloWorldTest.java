@@ -9,7 +9,6 @@ public class HelloWorldTest {
     public void testAdd() throws Exception {
         HelloWorld helloWorld = new HelloWorld();
         assertEquals(4, helloWorld.add(1,3));
-        //Hello how do you do
     }
 
     @org.junit.Test

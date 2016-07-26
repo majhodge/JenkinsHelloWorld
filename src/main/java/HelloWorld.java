@@ -3,7 +3,7 @@
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.err.println("hello world");
+        System.out.println("hello world");
     }
 
     public int add (int var1, int var2) {

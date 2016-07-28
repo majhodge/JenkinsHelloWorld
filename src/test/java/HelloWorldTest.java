@@ -1,9 +1,16 @@
+import org.junit.Before;
+
 import static org.junit.Assert.*;
 
 /**
  * Created by majo on 7/26/16.
  */
 public class HelloWorldTest {
+
+    @Before
+    public void setup() throws Exception {
+        System.out.println("starting tests");
+    }
 
     @org.junit.Test
     public void testAdd() throws Exception {

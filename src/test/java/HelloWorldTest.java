@@ -9,7 +9,7 @@ public class HelloWorldTest {
 
     @Before
     public void setup() throws Exception {
-        System.out.println("starting tests");
+        System.out.println("starting tests!");
     }
 
     @org.junit.Test

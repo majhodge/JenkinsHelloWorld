@@ -23,9 +23,9 @@ public class HelloWorldTest {
         assertEquals(4, helloWorld.sub(7,3));
     }
 
-    @Test
-    public void testMult() throws Exception {
-        HelloWorld helloWorld = new HelloWorld();
-        assertEquals(3, helloWorld.mult(1,3));
-    }
+//    @Test
+//    public void testMult() throws Exception {
+//        HelloWorld helloWorld = new HelloWorld();
+//        assertEquals(3, helloWorld.mult(1,3));
+//    }
 }

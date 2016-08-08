@@ -48,11 +48,6 @@
           <outputDirectory>${project.build.directory}/surefire-reports/cobertura</outputDirectory>
           <instrumentation>
             <ignoreTrivial>true</ignoreTrivial>
-            <ignores>
-              <ignore>org.slf4j.Logger.*</ignore>
-            </ignores>
-            <excludes>
-            </excludes>
           </instrumentation>
         </configuration>
         <executions>
